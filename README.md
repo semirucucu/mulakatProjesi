@@ -12,7 +12,7 @@ git clone https://github.com/semirucucu/mulakatProjesi.git
 
 3. Proje Klasörüne Girin:
 
-cd mulakatProjesi
+cd my-app
 
 5. Bağımlılıkları Yükleyin:
 
