@@ -2,38 +2,31 @@
 
 Bu proje, [React](https://react.dev/) ve [Vite](https://vitejs.dev/) kullanılarak geliştirilmiştir.
 
-** Projeyi Çalıştırma
+Projeyi Çalıştırma
 
-Aşağıdaki adımları takip ederek projeyi yerel bilgisayarında çalıştırabilirsin.
+Aşağıdaki adımları takip ederek projeyi yerel bilgisayarınızda çalıştırabilirsiniz.
 
-*** 1 Depoyu Klonla:
-
-```sh
+1. Depoyu Klonlayın:
 git clone https://github.com/semirucucu/mulakatProjesi.git
 
-*** 2 Proje Klasorune Gir:
-
+2. Proje Klasörüne Girin:
 cd mulakatProjesi
 
-*** 3 Bagimliliklari Yukle:
-
+3. Bağımlılıkları Yükleyin:
 npm install
 
-*** 4 Gelistirme Sunucusunu Baslat:
-
+4. Geliştirme Sunucusunu Başlatın:
 npm run dev
 
-*** 5 Projeyi Tarayicida Ac:
+5. Projeyi Tarayıcıda Açın:
+Komut çalıştırıldıktan sonra terminalde bir yerel sunucu adresi göreceksiniz (genellikle http://localhost:5173/). Bu adresi tarayıcıya yazarak projeyi görebilirsiniz.
 
-Projeyi Tarayıcıda Aç
-Komut çalıştırıldıktan sonra terminalde bir yerel sunucu adresi göreceksin (genellikle http://localhost:5173/).
-Bu adresi tarayıcıya yazarak projeyi görebilirsin.
+Not
 
-** Not
-Eğer bir hata alırsan, aşağıdaki komutları çalıştırarak node_modules'ü sıfırlamayı deneyebilirsin:
-
+Eğer bir hata alırsanız, aşağıdaki komutları çalıştırarak node_modules'ü sıfırlamayı deneyebilirsiniz:
 rm -rf node_modules package-lock.json
 npm install
 npm run dev
+
 
 
