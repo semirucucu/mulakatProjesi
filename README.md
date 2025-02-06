@@ -10,19 +10,19 @@ Aşağıdaki adımları takip ederek projeyi yerel bilgisayarınızda çalışt�
 
 git clone https://github.com/semirucucu/mulakatProjesi.git
 
-3. Proje Klasörüne Girin:
+2. Proje Klasörüne Girin:
 
 cd mulakatProjesi
 
-5. Bağımlılıkları Yükleyin:
+3. Bağımlılıkları Yükleyin:
 
 npm install
 
-7. Geliştirme Sunucusunu Başlatın:
+4. Geliştirme Sunucusunu Başlatın:
 
 npm run dev
 
-9. Projeyi Tarayıcıda Açın:
+5. Projeyi Tarayıcıda Açın:
 
 Komut çalıştırıldıktan sonra terminalde bir yerel sunucu adresi göreceksiniz (genellikle http://localhost:5173/). Bu adresi tarayıcıya yazarak projeyi görebilirsiniz.
 
