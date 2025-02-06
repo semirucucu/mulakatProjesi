@@ -30,8 +30,11 @@ Not
 
 Eğer bir hata alırsanız, aşağıdaki komutları çalıştırarak node_modules'ü sıfırlamayı deneyebilirsiniz:
 
+
 rm -rf node_modules package-lock.json
+
 npm install
+
 npm run dev
 
 
