@@ -1,0 +1,538 @@
+.navbar {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 370px;
+  width: 280px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  float: right;
+  margin-top: 69px;
+  background-color: white;
+  padding: 15px;
+  padding-top: 10px;
+}
+
+.headerOfNavBar {
+  padding-left: 1rem;
+  font-size: 14px;
+}
+
+.container {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 1000px;
+  width: 1200px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.seeAll {
+  margin-left: 45px;
+  float: right;
+  font-size: 14px;
+  color: rgba(233, 96, 164, 0.8);
+  text-decoration: none;
+}
+
+.seeAll:hover {
+  color: rgba(233, 96, 164, 1);
+}
+
+
+.kisi {
+  height: 60px;
+  margin-left: 15px;
+  display: flex;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.kisi:hover {
+  background-color: rgba(222, 222, 222, 0.7);
+}
+
+.navbarList {
+  list-style: none;
+}
+
+.kisiProfil {
+  border-radius: 50%;
+  width: 20%;
+  object-fit: cover;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.isim {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.kisiList {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+}
+
+.lastText {
+  padding-top: 0;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.7);
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.time {
+  font-size: 10px;
+  font-weight: bold;
+  position: relative;
+  right: 5px;
+  color: rgba(128, 128, 128, 0.9);
+}
+
+.lineBetweenPeople {
+  width: 90%;
+  border: 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.lineBetweenWhoAmI {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.titleOfMainPage {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profilePic {
+  width: 400px;
+  border-radius: 15px;
+}
+
+
+
+.premiumCart {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  width: 220px;
+  height: 360px;
+  margin-top: 69px;
+  border-radius: 15px;
+  text-align: center;
+  background-image: url("https://million-wallpapers.com/wallpapers/3/60/558792693501852/duvar-ka-d-soyutlamay-bulan-kla-t-rmay-y-ce-sanat-tasvir-ediyor.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 15px;
+}
+
+.premiumOlButton {
+  padding: 15px;
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(230, 73, 151, 0.9);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.premiumOlButton:hover {
+  background-color: rgba(230, 73, 151, 1);
+}
+
+.premiumCartImage {
+  width: 120px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.premiumCartSubTitle {
+  margin: 0;
+  padding: 0;
+}
+
+.changerButtons {
+  list-style: none;
+  display: inline-flex;
+  gap: 15px;
+}
+
+.changerButtons button {
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.changerButtons button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.premiumCartText {
+  font-size: 13px;
+}
+
+.premiumCartTitle {
+  margin-bottom: 0;
+}
+
+.iconsHeader {
+  width: 80px;
+  height: 850px;
+  margin-top: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconsHeader a {
+  font-size: 22px;
+  color: rgb(75, 22, 76);
+  text-decoration: none;
+  padding: 20px;
+  transition: all 0.4s ease, color 0.6s ease-in-out, background-color 0.5s ease, border-left 0.5s ease;
+}
+
+.lineOfIcons {
+  width: 70%;
+  border: none;
+  border-top: 2px solid rgba(128, 128, 128, 0.15);
+  margin-top: 150px;
+}
+
+.iconsHeader a.active {
+  color: rgb(230, 73, 151);
+  font-weight: bold;
+  border-left: 2px solid rgb(230, 73, 151);
+  padding-left: 28px;
+  margin-right: 10px;
+}
+
+.iconsHeader a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fa-heart-pulse {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(230, 73, 151);
+  overflow: hidden;
+}
+
+
+.whoami {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  height: auto;
+  width: 358px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 20px;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whoamiTitle {
+  font-weight: lighter;
+
+}
+
+.whoamiText {
+  color: rgb(128, 128, 128);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.iconOfWhoAmI {
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.specials {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.slider-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+.listOfNavBars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.emogi {
+  margin: auto;
+  color: rgb(176, 176, 176);
+  font-size: 22px;
+}
+
+.passFavoriteLike {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  align-self: center;
+  height: 60px;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: white;
+
+  position: sticky;
+  bottom: 75px;
+  z-index: 1000;
+}
+
+.mainPagePassAddLike {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  margin: auto;
+}
+
+.passButton {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: hsl(0, 0%, 95%);
+  transition: background-color 0.3s ease;
+  font-weight: lighter;
+}
+
+.passButton:hover {
+  background-color: hsl(0, 0%, 75%);
+}
+
+.favoriteButton {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: rgba(65, 42, 120, 0.8);
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.favoriteButton:hover {
+  background-color: rgba(65, 42, 120, 1);
+}
+
+.likeButton {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: rgba(221, 136, 207, 0.8);
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.likeButton:hover {
+  background-color: rgba(221, 136, 207, 1);
+}
+
+.sendText {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  align-self: center;
+  width: 250px;
+  height: 80px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(230, 73, 151, 0.9);
+  transition: background-color 0.4s ease;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top-right-radius: 33px;
+  border-top-left-radius: 33px;
+  cursor: pointer;
+
+  position: sticky;
+  bottom: 10px;
+  z-index: 1000;
+}
+
+.sendText:hover {
+  background-color: rgba(230, 73, 151, 1);
+}
+
+.sendText label {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.photoOfMainPage img {
+  max-width: 400px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  .titleOfMainPage {
+    padding-left: 5%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    float: none;
+  }
+
+  .iconsHeader {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+  }
+
+  .iconsHeader a {
+    font-size: 18px;
+    scale: 1;
+    flex-shrink: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+
+  .iconsHeader a.active {
+    border-bottom: 2px solid;
+    box-sizing: border-box;
+    padding: 10px 20px;
+  }
+
+  .iconsHeader i {
+    font-size: 24px;
+  }
+
+
+
+  .lineOfIcons {
+    border: 0;
+    display: none;
+  }
+
+  .fa-heart-pulse {
+    display: none;
+  }
+
+  .premiumCart {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .whoami {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .profilePic {
+    max-width: 100%;
+    align-self: center;
+  }
+
+  .photoOfMainPage img {
+    max-width: 100%;
+  }
+
+  .passFavoriteLike {
+    width: 45%;
+    bottom: 70px;
+    justify-content: space-around;
+  }
+
+  .sendText {
+    width: 40%;
+    height: auto;
+    bottom: 0;
+    padding: 20px;
+  }
+}
